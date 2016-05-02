@@ -1,7 +1,7 @@
 import nasa.tsv
 
 
-# for finding the url. go to a bash and cat nasa.tsv| uniq. to get the list of urls.
+# for finding the url. go to a bash and cat tail nasa.tsv| uniq. to get the list of urls.
 #| metadata type=hosts | table host
 
 logfile = open("access.log", "r")
